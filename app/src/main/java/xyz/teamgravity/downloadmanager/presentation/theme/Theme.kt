@@ -1,4 +1,4 @@
-package xyz.teamgravity.downloadmanager.ui.theme
+package xyz.teamgravity.downloadmanager.presentation.theme
 
 import android.app.Activity
 import android.os.Build

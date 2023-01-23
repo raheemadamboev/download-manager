@@ -1,4 +1,4 @@
-package xyz.teamgravity.downloadmanager
+package xyz.teamgravity.downloadmanager.presentation.activity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -7,9 +7,11 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import xyz.teamgravity.downloadmanager.ui.theme.DownloadManagerTheme
+import xyz.teamgravity.downloadmanager.presentation.screen.MainScreen
+import xyz.teamgravity.downloadmanager.presentation.theme.DownloadManagerTheme
 
-class MainActivity : ComponentActivity() {
+class Main : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -18,6 +20,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
+                    MainScreen()
                 }
             }
         }
