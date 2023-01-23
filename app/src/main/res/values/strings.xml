@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Download Manager</string>
+
+    <!-- Main -->
+    <string name="start_downloading">Start downloading</string>
+    <string name="download_completed">Download completed!</string>
 </resources>
